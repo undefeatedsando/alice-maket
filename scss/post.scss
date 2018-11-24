@@ -1,0 +1,30 @@
+/* Стили для постов и ленты */
+
+.post-header-image{
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+.post-header-image img{
+	border-radius: 0 0 20px 20px;
+	width: 100%;
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55);
+}
+
+.post-header-title{
+	font-family: $header;
+	background: $background_title;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 50px;
+	padding-top: 60px;
+	position: relative;
+	top: -35px;
+}
+
+.post-content{
+	padding: 0 30px;
+}

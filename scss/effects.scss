@@ -1,0 +1,8 @@
+/*color*/
+
+@mixin colorchange() {
+  -webkit-transition: background 0.8s; /* Safari */
+  transition: background 0.8s;
+}
+
+	

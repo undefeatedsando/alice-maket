@@ -1,0 +1,29 @@
+.feed-item-image{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.feed-item-image img{
+	height: 100px;
+	width: 70%;
+	object-fit: cover;
+}
+
+.feed-item-title{
+	font-family: $header;
+	font-size: 18px;
+	color: $menu_blue;
+	}
+
+.feed-item-link{
+	display: inline-block;
+	padding: 5px 30px;
+	margin-top: 20px;
+	background: $menu_blue;
+	color: white;
+	border-radius: 5px;
+	@include colorchange();
+	&:hover{
+	background: $menu_hover;
+	}
+}

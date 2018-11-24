@@ -1,0 +1,44 @@
+@import 'reset';
+@import 'colors';
+@import 'fonts';
+@import 'effects';
+@import 'post';
+@import 'feed';
+@import 'menu';
+
+body{
+	background: $background_grey;
+	font-family: $main;
+	}
+
+.top-menu {
+	background: $menu_blue;
+	min-height: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	z-index: 2;
+    position: relative;
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.post{
+	width: 70%;
+	background: $background_white;
+}
+
+.feed{
+	width: 28%;
+}
+
+.feed-item{
+	background: $background_other_posts;
+	margin-bottom: 8px;
+	padding: 20px;
+}

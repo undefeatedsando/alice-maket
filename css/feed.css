@@ -1,0 +1,14 @@
+/* line 1, scss/feed.scss */
+.feed-item-image {
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 6, scss/feed.scss */
+.feed-item-image img {
+  height: 100px;
+  width: 70%;
+  object-fit: cover; }
+
+/* line 12, scss/feed.scss */
+.feed-item-title {
+  font-size: 18px; }
