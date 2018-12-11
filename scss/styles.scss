@@ -42,3 +42,21 @@ body{
 	margin-bottom: 8px;
 	padding: 20px;
 }
+
+/* HERE ADAPTIVITY GOES */
+
+@media screen and (max-width: 800px){
+	.wrapper{
+	flex-direction: column;
+	}
+	.post{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.feed{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+}
