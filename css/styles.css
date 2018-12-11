@@ -40,7 +40,7 @@ a {
 .post-content {
   padding: 0 30px; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   /* line 33, scss/post.scss */
   .post-header-title {
     font-size: 14px;
@@ -112,7 +112,7 @@ a {
 .top-menu-item-mobile {
   display: none; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   /* line 25, scss/menu.scss */
   .top-menu-item {
     display: none; }
@@ -158,7 +158,7 @@ body {
   padding: 20px; }
 
 /* HERE ADAPTIVITY GOES */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   /* line 49, scss/styles.scss */
   .wrapper {
     flex-direction: column;
