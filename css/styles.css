@@ -72,6 +72,12 @@ a {
   .feed-item-link:hover {
     background: #14627f; }
 
+@media screen and (max-width: 800px) {
+  /* line 32, scss/feed.scss */
+  .feed-item-image img {
+    height: auto;
+    width: 60%; } }
+
 /* line 1, scss/menu.scss */
 .top-menu {
   padding: 0 10%; }
@@ -134,13 +140,14 @@ body {
 @media screen and (max-width: 800px) {
   /* line 49, scss/styles.scss */
   .wrapper {
-    flex-direction: column; }
-  /* line 52, scss/styles.scss */
+    flex-direction: column;
+    width: 100%; }
+  /* line 53, scss/styles.scss */
   .post {
     width: 90%;
     margin-left: auto;
     margin-right: auto; }
-  /* line 57, scss/styles.scss */
+  /* line 58, scss/styles.scss */
   .feed {
     width: 90%;
     margin-left: auto;

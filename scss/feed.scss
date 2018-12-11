@@ -27,3 +27,10 @@
 	background: $menu_hover;
 	}
 }
+
+@media screen and (max-width: 800px){
+	.feed-item-image img{
+	height: auto;
+	width: 60%;
+}
+}
