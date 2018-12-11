@@ -40,6 +40,15 @@ a {
 .post-content {
   padding: 0 30px; }
 
+@media screen and (max-width: 800px) {
+  /* line 33, scss/post.scss */
+  .post-header-title {
+    font-size: 14px;
+    padding: 20px 10px;
+    padding-top: 60px;
+    position: relative;
+    top: -35px; } }
+
 /* line 1, scss/feed.scss */
 .feed-item-image {
   width: 100%;
@@ -99,6 +108,18 @@ a {
   display: inline-block;
   margin-top: 14px; }
 
+/* line 20, scss/menu.scss */
+.top-menu-item-mobile {
+  display: none; }
+
+@media screen and (max-width: 800px) {
+  /* line 25, scss/menu.scss */
+  .top-menu-item {
+    display: none; }
+  /* line 28, scss/menu.scss */
+  .top-menu-item-mobile {
+    display: block; } }
+
 /* line 9, scss/styles.scss */
 body {
   background: #8FAFA9;
@@ -151,4 +172,7 @@ body {
   .feed {
     width: 90%;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+  /* line 64, scss/styles.scss */
+  .top-menu {
+    justify-content: flex-end; } }

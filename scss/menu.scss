@@ -16,3 +16,16 @@
 	display: inline-block;
 	margin-top: 14px;
 }
+
+.top-menu-item-mobile{
+	display: none;
+}
+
+@media screen and (max-width: 800px){
+	.top-menu-item{
+	display: none;
+	}
+	.top-menu-item-mobile{
+	display: block;
+	}
+}
