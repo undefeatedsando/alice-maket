@@ -7,3 +7,12 @@
 */
 
 console.log('Loaded, bro.')
+
+$( document ).ready(function() {
+    
+	$('.top-menu-item-mobile').click(function(){
+		$('.top-menu-item').toggleClass('visible');
+	})
+
+
+});

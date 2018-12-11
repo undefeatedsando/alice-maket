@@ -25,7 +25,11 @@
 	.top-menu-item{
 	display: none;
 	}
+	.top-menu-item.visible{
+	display: block;
+	}
 	.top-menu-item-mobile{
 	display: block;
+	text-align: right;
 	}
 }
