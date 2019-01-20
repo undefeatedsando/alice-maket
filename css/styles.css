@@ -127,9 +127,23 @@ a {
   .top-menu-item.visible {
     display: block; }
   /* line 31, scss/menu.scss */
+  .top-menu-item.logo.visible {
+    display: none; }
+  /* line 34, scss/menu.scss */
   .top-menu-item-mobile {
     display: block;
-    text-align: right; } }
+    text-align: right; }
+  /* line 38, scss/menu.scss */
+  .top-menu-item-mobile.open {
+    text-align: center; }
+  /* line 41, scss/menu.scss */
+  .top-menu-item-mobile.desc {
+    color: white;
+    width: 40%;
+    font-size: 11px;
+    position: absolute;
+    top: 12px;
+    left: 10px; } }
 
 /* line 9, scss/styles.scss */
 body {

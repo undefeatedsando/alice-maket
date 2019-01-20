@@ -12,6 +12,8 @@ $( document ).ready(function() {
     
 	$('.top-menu-item-mobile').click(function(){
 		$('.top-menu-item').toggleClass('visible');
+		$('.top-menu-item-mobile').toggleClass('open');
+		$('.top-menu-item-mobile.desc').toggle();
 	})
 
 

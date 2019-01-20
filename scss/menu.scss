@@ -28,8 +28,22 @@
 	.top-menu-item.visible{
 	display: block;
 	}
+	.top-menu-item.logo.visible{
+	display: none;
+	}
 	.top-menu-item-mobile{
 	display: block;
 	text-align: right;
+	}
+	.top-menu-item-mobile.open{
+	text-align: center;
+	}
+	.top-menu-item-mobile.desc{
+	color: white;
+    width: 40%;
+    font-size: 11px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
 	}
 }
