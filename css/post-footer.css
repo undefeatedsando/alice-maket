@@ -1,0 +1,12 @@
+/* line 1, scss/post-footer.scss */
+.feed-item-footer, .post-footer {
+  display: flex;
+  justify-content: space-between; }
+
+/* line 6, scss/post-footer.scss */
+.post-footer {
+  margin: 20px 30px; }
+
+/* line 10, scss/post-footer.scss */
+.feed-item-footer {
+  margin-top: 20px; }

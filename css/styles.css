@@ -49,6 +49,43 @@ a {
     position: relative;
     top: -35px; } }
 
+/* line 1, scss/post-footer.scss */
+.feed-item-footer, .post-footer {
+  display: flex;
+  justify-content: space-between; }
+
+/* line 6, scss/post-footer.scss */
+.post-footer {
+  margin: 20px 30px; }
+
+/* line 10, scss/post-footer.scss */
+.feed-item-footer {
+  margin-top: 20px; }
+
+/* line 14, scss/post-footer.scss */
+.post-date {
+  color: #59a7a2; }
+
+/* line 18, scss/post-footer.scss */
+.post-badge {
+  color: white;
+  background-color: #267491;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 12px; }
+
+/* line 26, scss/post-footer.scss */
+.post-badge.tag1 {
+  background-color: #c7a486; }
+
+/* line 29, scss/post-footer.scss */
+.post-badge.tag2 {
+  background-color: #364065; }
+
+/* line 32, scss/post-footer.scss */
+.post-badge.tag3 {
+  background-color: #569260; }
+
 /* line 1, scss/feed.scss */
 .feed-item-flag {
   color: #267491;
@@ -145,12 +182,12 @@ a {
     top: 12px;
     left: 10px; } }
 
-/* line 9, scss/styles.scss */
+/* line 10, scss/styles.scss */
 body {
   background: #8FAFA9;
   font-family: "Roboto"; }
 
-/* line 14, scss/styles.scss */
+/* line 15, scss/styles.scss */
 .top-menu {
   background: #267491;
   min-height: 50px;
@@ -160,30 +197,30 @@ body {
   z-index: 2;
   position: relative; }
 
-/* line 24, scss/styles.scss */
+/* line 25, scss/styles.scss */
 .wrapper {
   width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between; }
 
-/* line 31, scss/styles.scss */
+/* line 32, scss/styles.scss */
 .post {
   width: 70%;
   background: #ECFFF8; }
 
-/* line 36, scss/styles.scss */
+/* line 37, scss/styles.scss */
 .feed {
   width: 28%; }
 
-/* line 40, scss/styles.scss */
+/* line 41, scss/styles.scss */
 .feed-item {
   background: #CAE9E0;
   margin-bottom: 8px;
   padding: 20px;
   position: relative; }
 
-/* line 47, scss/styles.scss */
+/* line 48, scss/styles.scss */
 .footer {
   text-align: center;
   color: #fff;
@@ -191,21 +228,21 @@ body {
 
 /* HERE ADAPTIVITY GOES */
 @media screen and (max-width: 768px) {
-  /* line 56, scss/styles.scss */
+  /* line 57, scss/styles.scss */
   .wrapper {
     flex-direction: column;
     width: 100%; }
-  /* line 60, scss/styles.scss */
+  /* line 61, scss/styles.scss */
   .post {
     width: 90%;
     margin-left: auto;
     margin-right: auto; }
-  /* line 65, scss/styles.scss */
+  /* line 66, scss/styles.scss */
   .feed {
     width: 90%;
     margin-left: auto;
     margin-right: auto; }
-  /* line 71, scss/styles.scss */
+  /* line 72, scss/styles.scss */
   .top-menu {
     justify-content: flex-start;
     flex-direction: column; } }
